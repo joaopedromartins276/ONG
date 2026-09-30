@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Conheça as iniciativas solidárias e formas de participar.">
+  <title>Projetos Sociais | ONG Esperança Solidária</title>
+
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #24352c;
+      background: #f5f8f5;
+      line-height: 1.6;
+    }
+
+    header, main, footer {
+      padding: 1rem max(1rem, calc((100% - 1000px) / 2));
+    }
+
+    .site-header {
+      background: #1f6845;
+      color: white;
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .brand {
+      font-weight: bold;
+      font-size: 1.15rem;
+      color: white;
+      text-decoration: none;
+    }
+
+    nav {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    nav a { color: white; }
+
+    main { min-height: 70vh; }
+
+    section, article {
+      background: white;
+      padding: 1.25rem;
+      margin: 1rem 0;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px #173b2810;
+    }
+
+    h1, h2 { color: #1f6845; }
+
+    img {
+      width: 100%;
+      max-width: 720px;
+      height: auto;
+      border-radius: 10px;
+      display: block;
+      margin: 1rem auto;
+    }
+
+    .button {
+      display: inline-block;
+      background: #1f6845;
+      color: white;
+      padding: .75rem 1rem;
+      border-radius: 6px;
+      text-decoration: none;
+    }
+
+    .button:hover { background: #164d32; }
+
+    footer {
+      background: #e3eee6;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      ONG Esperança Solidária
+    </a>
+
+    <nav aria-label="Navegação principal">
+      <a href="index.html">Início</a>
+      <a href="projetos.html">Projetos sociais</a>
+      <a href="cadastro.html">Cadastro</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Nossos projetos sociais</h1>
+
+    <section>
+      <h2>Campanhas de doação</h2>
+
+      <p>
+        Organizamos campanhas solidárias para arrecadar alimentos,
+        roupas e itens essenciais para pessoas e famílias que
+        precisam de apoio.
+      </p>
+
+      <picture>
+        <source srcset="imagens/doacoes.webp" type="image/webp">
+        <img
+          src="imagens/doacoes.png"
+          alt="Campanha de arrecadação de alimentos e itens essenciais">
+      </picture>
+    </section>
+
+    <article>
+      <h2>Apoio comunitário</h2>
+
+      <p>
+        Promovemos ações de mobilização e apoio comunitário,
+        buscando aproximar voluntários das necessidades locais.
+      </p>
+    </article>
+
+    <section>
+      <h2>Seja voluntário</h2>
+
+      <p>
+        Você pode contribuir com seu tempo, suas habilidades
+        e sua disposição para ajudar.
+      </p>
+
+      <a class="button" href="cadastro.html">
+        Cadastre-se para participar
+      </a>
+    </section>
+
+    <section>
+      <h2>Como doar</h2>
+
+      <p>
+        Entre em contato com a organização para conhecer
+        as campanhas ativas e combinar a forma de contribuição.
+        Os dados desta demonstração são fictícios.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 ONG Esperança Solidária — projeto acadêmico.</p>
+  </footer>
+</body>
+</html>
